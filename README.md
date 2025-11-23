@@ -1,8 +1,8 @@
-# Predictive Maintenance Application for Factory Equipment - mlops
+# Predict Equipment Failure Risk Application for Factory Equipment - mlops
 
 ## Project Overview
 
-This repository contains all the resources and source code for our Predictive Maintenance Application designed to optimize maintenance activities in a factory setting. This application leverages historical maintenance data and will eventually integrate real-time IoT sensor data to predict potential equipment failures. The goal is to reduce downtime and maintenance costs while improving the longevity and reliability of factory equipment.
+This repository contains all the resources and source code for our Predict Equipment Failure Risk Application designed to optimize maintenance activities in a factory setting. This application leverages historical maintenance data and will eventually integrate real-time IoT sensor data to predict potential equipment failures. The goal is to reduce downtime and maintenance costs while improving the longevity and reliability of factory equipment.
 
 ### Key Features
 - **Real-Time Data Dashboard**: Visualizes the health status of equipment.
