@@ -15,7 +15,7 @@ from sqlalchemy.orm import declarative_base
 # Use PostgreSQL via SQLAlchemy
 # Prefer environment variable, fallback to a sensible local default
 # Use PostgreSQL via SQLAlchemy (hard-coded for now)
-DATABASE_URL = "postgresql+psycopg2://predictive_user:predictive_pass@localhost:5432/predictive_maintenance"
+DATABASE_URL ='postgresql://neondb_owner:npg_bTWgHe6rEha3@ep-lucky-field-a8ri14ns-pooler.eastus2.azure.neon.tech/predictive_maintenance?sslmode=require&channel_binding=require'
 
 
 Base = declarative_base()
