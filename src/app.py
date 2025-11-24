@@ -1,6 +1,6 @@
 from flask import Flask, request, render_template_string
 from sqlalchemy.orm import sessionmaker
-from db_initialize import EquipmentEvent, get_engine
+from src.db_initialize import EquipmentEvent, get_engine
 import random
 
 app = Flask(__name__)
