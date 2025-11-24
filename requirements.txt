@@ -12,7 +12,7 @@ seaborn==0.11.2
 plotly==5.10.0  # Optional, for interactive plots
 
 # Web application framework
-flask>=3.0.0
+flask==3.1.2
 flask-cors==3.0.10
 
 # Database connectivity
@@ -30,7 +30,7 @@ python-dotenv==0.20.0  # For loading environment variables
 statsmodels==0.14.0
 
 # Production WSGI server for deployment
-gunicorn
+gunicorn==23.0.0
 
 # Build tooling
 setuptools
