@@ -1,17 +1,16 @@
 # Core libraries for data manipulation and scientific computing
 numpy==1.23.3
 pandas==1.4.4
-scipy==1.9.1
+scipy==1.11.4
 
 # Machine Learning libraries
 scikit-learn==1.1.2
-# tensorflow removed for deployment; not used in current app
-# tensorflow>=2.15,<2.21
+# tensorflow>=2.15,<2.21  # removed for deployment, not used in app
 
 # Data visualization
 matplotlib==3.5.3
 seaborn==0.11.2
-plotly==5.10.0  # Optional, for interactive plots
+plotly==5.10.0
 
 # Web application framework
 flask>=3.0.0
@@ -19,14 +18,14 @@ flask-cors==3.0.10
 
 # Database connectivity
 sqlalchemy==1.4.39
-psycopg2-binary==2.9.3  # For PostgreSQL; use appropriate adapter for other databases
+psycopg2-binary==2.9.3
 
-# Real-time data processing (if needed later)
-kafka-python==2.0.2  # Optional, for Kafka integration
+# Real-time data processing (optional)
+kafka-python==2.0.2
 
 # Utilities
 requests==2.28.1
-python-dotenv==0.20.0  # For loading environment variables
+python-dotenv==0.20.0
 
 # time series analysis
 statsmodels==0.14.0
