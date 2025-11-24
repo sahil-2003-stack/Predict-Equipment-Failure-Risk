@@ -1,11 +1,11 @@
 # Core libraries for data manipulation and scientific computing
 numpy==1.23.3
 pandas==1.4.4
-scipy==1.11.4
+scipy==1.9.1
 
 # Machine Learning libraries
 scikit-learn==1.1.2
-# tensorflow>=2.15,<2.21  # removed for deployment, not used in app
+# (NO tensorflow line here)
 
 # Data visualization
 matplotlib==3.5.3
@@ -20,7 +20,7 @@ flask-cors==3.0.10
 sqlalchemy==1.4.39
 psycopg2-binary==2.9.3
 
-# Real-time data processing (optional)
+# Real-time data processing (if needed later)
 kafka-python==2.0.2
 
 # Utilities
