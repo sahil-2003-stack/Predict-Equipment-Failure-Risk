@@ -5,7 +5,8 @@ scipy==1.9.1
 
 # Machine Learning libraries
 scikit-learn==1.1.2
-tensorflow>=2.15,<2.21  # or replace with 'torch==1.12.1' if using PyTorch
+# tensorflow removed for deployment; not used in current app
+# tensorflow>=2.15,<2.21
 
 # Data visualization
 matplotlib==3.5.3
@@ -32,3 +33,6 @@ statsmodels==0.14.0
 
 # Production WSGI server for deployment
 gunicorn
+
+# Build tooling
+setuptools
